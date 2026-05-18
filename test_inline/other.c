@@ -5,7 +5,6 @@
 extern int add_extern(int a, int b);
 
 void other_func() {
-    add(1,2);
     printf("=== other.c ===\n");
     printf("add_static addr: %p\n", (void*)add_static);
     printf("add_extern addr: %p\n", (void*)add_extern);
